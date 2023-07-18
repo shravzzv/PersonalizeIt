@@ -1,0 +1,41 @@
+.nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.nav__logo {
+  display: none;
+}
+
+.nav__link {
+  border-radius: 5px;
+  padding: 0.5em 1em;
+}
+
+.nav__link:hover {
+  background-color: rgb(206, 203, 203);
+}
+
+@media (min-width: 768px) {
+  .nav__logo {
+    display: block;
+  }
+
+  .nav__list {
+    justify-content: space-evenly;
+  }
+}
