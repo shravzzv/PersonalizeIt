@@ -1,0 +1,27 @@
+.footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.footer__copyright {
+  margin: 1em auto;
+  font-style: italic;
+}
+
+.footer__list {
+  list-style-type: none;
+  gap: 1em;
+}
+
+.footer__listItem {
+  margin: 0.25em auto;
+}
+
+.footer__link:hover {
+  opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+}
