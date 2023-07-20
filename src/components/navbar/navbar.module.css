@@ -33,6 +33,7 @@
 @media (min-width: 768px) {
   .nav__logo {
     display: block;
+    font-size: 2rem;
   }
 
   .nav__list {
