@@ -2,7 +2,6 @@
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 1em 0;
-  border: 2px solid gray;
 }
 
 .hero {
@@ -35,7 +34,7 @@
 
 .gallery {
   margin: 0 1em;
-  padding: 1.5em 0.5em;
+  padding: 1em 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -43,7 +42,6 @@
 }
 
 .product {
-  padding: 1em;
   max-width: 500px;
 }
 
@@ -70,7 +68,7 @@
 
 .section {
   margin: 0 1em;
-  padding: 1.5em 0.5em;
+  padding: 1.5em 0;
 }
 
 .section__image {

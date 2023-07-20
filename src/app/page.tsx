@@ -35,6 +35,23 @@ export default function Home() {
 
       <div className={styles.gallery}>
         <div className={styles.product}>
+          <Link href='/taskstemplate'>
+            <Image
+              src='https://public-files.gumroad.com/hofyyco0prqojjfatwn44rxsewuo'
+              alt='product'
+              width={700}
+              height={650}
+              className={styles.product__image}
+            />
+            <h2 className={styles.product__title}>Tasks template</h2>
+            <p className={styles.product__desc}>
+              A robust tasks template that contains all the leading features
+              required in a tasks app.
+            </p>
+            <p className={styles.product__price}>$5</p>
+          </Link>
+        </div>
+        {/* <div className={styles.product}>
           <Link href='#'>
             <Image
               src='https://images.unsplash.com/photo-1648134859186-a05fb609f41e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80'
@@ -67,24 +84,7 @@ export default function Home() {
             </p>
             <p className={styles.product__price}>$5</p>
           </Link>
-        </div>
-        <div className={styles.product}>
-          <Link href='#'>
-            <Image
-              src='https://images.unsplash.com/photo-1648134859186-a05fb609f41e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80'
-              alt='product'
-              width={1155}
-              height={577}
-              className={styles.product__image}
-            />
-            <h2 className={styles.product__title}>Tasks template</h2>
-            <p className={styles.product__desc}>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
-              dicta.
-            </p>
-            <p className={styles.product__price}>$5</p>
-          </Link>
-        </div>
+        </div> */}
       </div>
 
       <section className={styles.section}>
@@ -146,3 +146,5 @@ export default function Home() {
     </div>
   )
 }
+
+// todo: add a FAQ section, notion certified logo, about the creator
