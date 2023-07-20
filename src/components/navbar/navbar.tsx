@@ -12,7 +12,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={styles.nav__listItem}>
-          <Link href='templates' className={styles.nav__link}>
+          <Link href='/taskstemplate' className={styles.nav__link}>
             Templates
           </Link>
         </li>
