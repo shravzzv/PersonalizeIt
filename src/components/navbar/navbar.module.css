@@ -27,7 +27,7 @@
 }
 
 .nav__link:hover {
-  background-color: rgb(206, 203, 203);
+  background-color: rgb(236, 235, 235);
 }
 
 @media (min-width: 768px) {
@@ -38,5 +38,11 @@
 
   .nav__list {
     justify-content: space-evenly;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .nav__link:hover {
+    background-color: rgb(65, 64, 64);
   }
 }
