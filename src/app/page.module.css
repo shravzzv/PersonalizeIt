@@ -10,6 +10,7 @@
   margin: 0 1em;
   border-radius: 10px;
   padding: 1.5em 0.5em;
+  color: black;
 }
 
 .hero__head {
@@ -116,4 +117,7 @@
   .section__image {
     width: 50%;
   }
+}
+
+@media (prefers-color-scheme: dark) {
 }
