@@ -30,7 +30,9 @@ export default function Home() {
           Embrace the power of personalization with uniquely crafted and tested
           tools
         </p>
+        <Link href='/taskstemplate'>
         <button className={styles.cta__button}>Explore</button>
+        </Link>
       </main>
 
       <div className={styles.gallery}>
