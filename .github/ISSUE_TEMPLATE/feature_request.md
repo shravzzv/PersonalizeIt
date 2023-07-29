@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<!-- Thank you for taking the time to submit a new feature request to The Odin Project. In order to get issues closed in a reasonable amount of time, you must include a baseline of information about the feature/enhancement you are proposing. Please read this template in its entirety before filling it out to ensure that it is filled out correctly. -->
+<!-- Thank you for taking the time to submit a new feature request to PersonalizeIt. In order to get issues closed in a reasonable amount of time, you must include a baseline of information about the feature/enhancement you are proposing. Please read this template in its entirety before filling it out to ensure that it is filled out correctly. -->
 
 Complete the following REQUIRED checkboxes:
 <!-- While editing this template, replace the whitespace between the square brackets with an 'x', e.g. [x] -->
