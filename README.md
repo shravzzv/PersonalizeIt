@@ -1,4 +1,6 @@
-# Tailor-Made Templates for Your Unique Productivity Journey
+# PersonalizeIt
+
+![home](https://res.cloudinary.com/dmt9s5xlh/image/upload/v1691808330/GitHub/personalizeIt-home_frgssr.jpg)
 
 Break free from the myth of one-size-fits-all productivity tools. Our templates provide a cutting-edge starting point that you can customize to your specific needs. Embrace the power of personalization and unlock your true productivity potential.
 
