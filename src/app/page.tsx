@@ -31,7 +31,7 @@ export default function Home() {
           tools
         </p>
         <Link href='/taskstemplate'>
-        <button className={styles.cta__button}>Explore</button>
+          <button className={styles.cta__button}>Explore</button>
         </Link>
       </main>
 
@@ -145,6 +145,17 @@ export default function Home() {
           className={styles.section__image}
         />
       </section>
+      <div
+        data-iframe-width='150'
+        data-iframe-height='270'
+        data-share-badge-id='e98543a2-8856-4381-9d3c-ab9c4878f76e'
+        data-share-badge-host='https://www.credly.com'
+      ></div>
+      <script
+        type='text/javascript'
+        async
+        src='//cdn.credly.com/assets/utilities/embed.js'
+      ></script>
     </div>
   )
 }
