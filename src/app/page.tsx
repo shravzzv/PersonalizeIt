@@ -145,17 +145,24 @@ export default function Home() {
           className={styles.section__image}
         />
       </section>
-      <div
-        data-iframe-width='150'
-        data-iframe-height='270'
-        data-share-badge-id='e98543a2-8856-4381-9d3c-ab9c4878f76e'
-        data-share-badge-host='https://www.credly.com'
-      ></div>
-      <script
-        type='text/javascript'
-        async
-        src='//cdn.credly.com/assets/utilities/embed.js'
-      ></script>
+      <section className={styles.section}>
+        <div className={styles.section__text}>
+          <h2 className={styles.section__head}>Certified by Notion</h2>
+          <p className={styles.section__desc}>
+            Notion Essentials Badge holders have demonstrated baseline
+            proficiency across all Notion features. They understand block types,
+            collaboration, databases, sidebar organization, and user settings.
+            They can identify best practices for daily Notion use.
+          </p>
+        </div>
+        <Image
+          src='https://res.cloudinary.com/dmt9s5xlh/image/upload/v1693062812/INBOX/notion-essentials-badge_ckprgi.png'
+          alt='testing'
+          width={300}
+          height={300}
+          className={styles.section__image}
+        />
+      </section>
     </div>
   )
 }
