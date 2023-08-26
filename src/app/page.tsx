@@ -165,7 +165,7 @@ export default function Home() {
           </p>
         </div>
         <Image
-          src='https://res.cloudinary.com/dmt9s5xlh/image/upload/v1693062812/INBOX/notion-essentials-badge_ckprgi.png'
+          src='https://res.cloudinary.com/dmt9s5xlh/image/upload/v1693064244/INBOX/notion-essentials-badge_rqcdtn.png'
           alt='testing'
           width={300}
           height={300}
