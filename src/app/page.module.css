@@ -78,6 +78,11 @@
   height: auto;
 }
 
+.section__badge__image {
+  max-width: 500px;
+  margin: auto;
+}
+
 .section__head {
   font-weight: 500;
   font-size: 1.75rem;
@@ -86,6 +91,15 @@
 
 .section__desc {
   margin-bottom: 1em;
+}
+
+.badge__link {
+  color: rgb(199, 153, 243);
+  text-decoration: underline;
+}
+
+.badge__link:visited {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

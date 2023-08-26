@@ -31,7 +31,7 @@ export default function Home() {
           tools
         </p>
         <Link href='/taskstemplate'>
-        <button className={styles.cta__button}>Explore</button>
+          <button className={styles.cta__button}>Explore</button>
         </Link>
       </main>
 
@@ -143,6 +143,33 @@ export default function Home() {
           width={872}
           height={582}
           className={styles.section__image}
+        />
+      </section>
+      <section className={styles.section}>
+        <div className={styles.section__text}>
+          <h2 className={styles.section__head}>Certified by Notion</h2>
+          <p className={styles.section__desc}>
+            <Link
+              className={styles.badge__link}
+              target='_blank'
+              href={
+                'https://www.credly.com/badges/e98543a2-8856-4381-9d3c-ab9c4878f76e/public_url'
+              }
+            >
+              Notion Essentials Badge
+            </Link>{' '}
+            holders have demonstrated baseline proficiency across all Notion
+            features. They understand block types, collaboration, databases,
+            sidebar organization, and user settings. They can identify best
+            practices for daily Notion use.
+          </p>
+        </div>
+        <Image
+          src='https://res.cloudinary.com/dmt9s5xlh/image/upload/v1693064244/INBOX/notion-essentials-badge_rqcdtn.png'
+          alt='testing'
+          width={300}
+          height={300}
+          className={`${styles.section__image} ${styles.section__badge__image}`}
         />
       </section>
     </div>
