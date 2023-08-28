@@ -8,7 +8,7 @@ const Footer = () => {
       <main className={styles.footer__main}>
         <h1 className={styles.footer__logo}>PersonalizeIt</h1>
         <p className={styles.footer__desc}>
-          Tailor mad templates for productivity.
+          Tailor made templates for productivity.
         </p>
         <p className={styles.footer__copyright}>&copy; Sai Shravan Vadla</p>
       </main>
