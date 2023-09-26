@@ -26,6 +26,10 @@
   padding: 0.5em 1em;
 }
 
+.nav__link::nth-last-child(-n+2) {
+  cursor: not-allowed;
+}
+
 @media (min-width: 768px) {
   .nav__logo {
     display: block;
